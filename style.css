@@ -54,8 +54,8 @@ border-top: 1px solid #646369;
 .footer {
 display: flex;
 width: 980px;
-border-top: 1px solid #646369;
-border-bottom: 1px solid #646369;
+/* border-top: 1px solid #646369;;
+border-bottom: 1px solid #646369; */
 
 }
 
