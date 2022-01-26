@@ -1,0 +1,23 @@
+body {
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.mobile_container {
+  background: #191765;
+  max-width: 480px;
+  margin: auto;
+  height: 812px;
+  width: 375px;
+  color: white;
+  border-radius: 10px;
+  }
+
+  .circle {
+    width: 70.28px;
+    height: 200.6px;
+    left: 447.27px;
+    top: 2437.23px;
+    background: #EDECFF;
+    filter: blur(50px);
+    transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
+  }
