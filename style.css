@@ -69,13 +69,14 @@ body {
 }
 
 .circle {
-  width: 70.28px;
-  height: 200.6px;
-  left: 447.27px;
-  top: 2437.23px;
-  background: #EDECFF;
+  position: absolute;
+  width: 226px;
+  height: 427px;
+  left: 42.04px;
+  top: 92px;
+  background: rgba(237, 236, 255, 0.4);
   filter: blur(50px);
-  transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
+  transform: rotate(25.09deg)
 }
 
 .project_btn {
@@ -248,6 +249,19 @@ input[type=submit]:hover {
   background-color: #191765;
   padding: 20px;
 }
+
+#mobileMenuLink {
+  cursor: pointer;
+  display: block;
+  font-size: 13px;
+  line-height: 1.6em;
+  padding: 15px 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: #A2A3AE;
+}
+/*End do not copy section*/
+
 
 @media all and (max-width: 500px) {
   .flex-nav li {
